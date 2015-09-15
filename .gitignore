@@ -1,5 +1,6 @@
 /.DS_Store
 /.settings/
+/packages
 /.project
 .tmp_*
 .DS_Store

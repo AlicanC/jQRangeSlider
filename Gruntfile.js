@@ -32,6 +32,7 @@ module.exports = function(grunt) {
     },
     uglify: {
       options: {
+        sourceMap: true,
         banner: '/*! <%= pkg.name %> <%= pkg.version %> - ' +
           '<%= grunt.template.today("yyyy-mm-dd") %> - ' +
           'Copyright (C) Guillaume Gautreau 2012 - '+

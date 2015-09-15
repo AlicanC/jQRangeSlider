@@ -1,6 +1,7 @@
 {
   "name": "jQRangeSlider",
   "version": "5.7.1",
+  "main": "dest/jQAllRangeSliders-withRuler-min.js",
   "scripts": {
     "test": "grunt ci --verbose"
   },

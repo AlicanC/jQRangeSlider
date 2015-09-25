@@ -273,7 +273,7 @@
 		}
 
 		this.Cache = function(){
-			if (this.label1.css("display") === "none"){
+			if (!this.label1 || this.label1.css("display") === "none"){
 				return;
 			}
 
